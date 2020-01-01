@@ -5,8 +5,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style id="customRules"></style>
-    <script async="" src="./COSEFATTEAGUIDONIA_files/sp-2.0.0-dm-0.1.min.js"></script>
-    <script type="text/javascript" async="" src="./COSEFATTEAGUIDONIA_files/ga.js"></script>
+    <script async="" src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/sp-2.0.0-dm-0.1.min.js"></script>
+    <script type="text/javascript" async="" src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/ga.js"></script>
     <script type="text/javascript">
         window._currentDevice = 'desktop';
         window.Parameters = window.Parameters || {
@@ -202,10 +202,10 @@
     <!--Add favorites icons-->
 
     <link rel="apple-touch-icon"
-        href="/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
+        href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
 
     <link rel="icon" type="image/x-icon"
-        href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.ico">
+        href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.ico?v=2">
 
     <!-- End favorite icons -->
 
@@ -337,8 +337,7 @@
 
         .dmRespRow .dmRespCol {
             display: inline-block;
-            vertical-align: top;
-            float: left
+            vertical-align: top
         }
 
         .dmRespRow .dmRespCol>* {
@@ -472,20 +471,16 @@
             text-decoration: inherit;
             -webkit-font-smoothing: antialiased;
             display: inline;
-            width: auto;
-            height: auto;
             line-height: normal;
             vertical-align: baseline;
             background-image: none;
             background-position: 0 0;
-            background-repeat: repeat;
-            margin-top: 0
+            background-repeat: repeat
         }
 
         [class*=' icon-']:before {
             text-decoration: none;
-            display: inline-block;
-            speak: none
+            display: inline-block
         }
 
         a [class*=' icon-'] {
@@ -497,7 +492,6 @@
         }
 
         [class*=' dm-common-icons-'] {
-            speak: none;
             font-style: normal;
             font-weight: 400;
             font-variant: normal;
@@ -1317,7 +1311,7 @@
 
         #dm .dmBody div.u_pa_8552430 {
             background-color: rgba(0, 0, 0, 0) !important;
-            background-image: url(/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg) !important
+            background-image: url(https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg) !important
         }
 
         @media all and (min-width:1920px),
@@ -1326,7 +1320,7 @@
         all and (min-device-pixel-ratio:1.5) {
             #dm .dmBody div.u_pa_8552430 {
                 background-color: rgba(0, 0, 0, 0) !important;
-                background-image: url(/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg) !important;
+                background-image: url(https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg) !important;
                 background-repeat: no-repeat !important;
                 background-size: cover !important
             }
@@ -1462,15 +1456,23 @@
             -moz-animation-duration: 1s;
             -moz-animation-iteration-count: infinite;
             -moz-animation-direction: linear;
+            animation-iteration-count: infinite;
+            animation-direction: linear;
+            animation-name: loader;
+            animation-duration: 1s;
             opacity: .25;
             -webkit-transform: scale(.7);
+            transform: scale(.7);
             -webkit-transform-origin: 50% 180%;
+            transform-origin: 50% 180%;
             -moz-transform: scale(.7);
             -moz-transform-origin: 50% 180%;
             position: absolute
         }
 
         #coloumn1 {
+            transform: rotate(0);
+            animation-delay: -.914s;
             -webkit-transform: rotate(0);
             -webkit-animation-delay: -.914s;
             -moz-transform: rotate(0);
@@ -1478,6 +1480,8 @@
         }
 
         #coloumn2 {
+            transform: rotate(30deg);
+            animation-delay: -.831s;
             -webkit-transform: rotate(30deg);
             -webkit-animation-delay: -.831s;
             -moz-transform: rotate(30deg);
@@ -1485,6 +1489,8 @@
         }
 
         #coloumn3 {
+            transform: rotate(60deg);
+            animation-delay: -.747s;
             -webkit-transform: rotate(60deg);
             -webkit-animation-delay: -.747s;
             -moz-transform: rotate(60deg);
@@ -1492,6 +1498,8 @@
         }
 
         #coloumn4 {
+            transform: rotate(90deg);
+            animation-delay: -.664s;
             -webkit-transform: rotate(90deg);
             -webkit-animation-delay: -.664s;
             -moz-transform: rotate(90deg);
@@ -1499,6 +1507,8 @@
         }
 
         #coloumn5 {
+            transform: rotate(120deg);
+            animation-delay: -.581s;
             -webkit-transform: rotate(120deg);
             -webkit-animation-delay: -.581s;
             -moz-transform: rotate(120deg);
@@ -1506,6 +1516,8 @@
         }
 
         #coloumn6 {
+            transform: rotate(150deg);
+            animation-delay: -.498s;
             -webkit-transform: rotate(150deg);
             -webkit-animation-delay: -.498s;
             -moz-transform: rotate(150deg);
@@ -1513,6 +1525,8 @@
         }
 
         #coloumn7 {
+            transform: rotate(180deg);
+            animation-delay: -.415s;
             -webkit-transform: rotate(180deg);
             -webkit-animation-delay: -.415s;
             -moz-transform: rotate(180deg);
@@ -1520,6 +1534,8 @@
         }
 
         #coloumn8 {
+            transform: rotate(210deg);
+            animation-delay: -.332s;
             -webkit-transform: rotate(210deg);
             -webkit-animation-delay: -.332s;
             -moz-transform: rotate(210deg);
@@ -1527,6 +1543,8 @@
         }
 
         #coloumn9 {
+            transform: rotate(240deg);
+            animation-delay: -.249s;
             -webkit-transform: rotate(240deg);
             -webkit-animation-delay: -.249s;
             -moz-transform: rotate(240deg);
@@ -1534,6 +1552,8 @@
         }
 
         #coloumn10 {
+            transform: rotate(270deg);
+            animation-delay: -.166s;
             -webkit-transform: rotate(270deg);
             -webkit-animation-delay: -.166s;
             -moz-transform: rotate(270deg);
@@ -1541,6 +1561,8 @@
         }
 
         #coloumn11 {
+            transform: rotate(300deg);
+            animation-delay: -83ms;
             -webkit-transform: rotate(300deg);
             -webkit-animation-delay: -83ms;
             -moz-transform: rotate(300deg);
@@ -1548,6 +1570,7 @@
         }
 
         #coloumn12 {
+            transform: rotate(330deg);
             -webkit-transform: rotate(330deg);
             -moz-transform: rotate(330deg)
         }
@@ -1599,16 +1622,16 @@
     <meta name="twitter:description"
         content="IN QUESTO SITO LA PUBBLICAZIONE DELLE COSE PORTATE A CASA DALLA GIUNTA BARBET E DALL&#39;INTERA AMMINISTRAZIONE. COSE CHE NESSUNO VI HA MAI DETTO">
     <meta name="twitter:image"
-        content="/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
+        content="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
     <meta property="og:description"
         content="IN QUESTO SITO LA PUBBLICAZIONE DELLE COSE PORTATE A CASA DALLA GIUNTA BARBET E DALL&#39;INTERA AMMINISTRAZIONE. COSE CHE NESSUNO VI HA MAI DETTO">
     <meta property="og:title" content="MICHEL BARBET 2017 -2019 COSA E&#39; STATO FATTO">
     <meta property="og:image"
-        content="/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
+        content="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/94fbf2272f877785ba60db209d29e3e7.jpeg">
 
     <!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
 
-    <script charset="utf-8" src="./COSEFATTEAGUIDONIA_files/10.4a67ffd8f79d8409e7cf.js"></script>
+    <script charset="utf-8" src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/10.4a67ffd8f79d8409e7cf.js"></script>
 </head>
 
 <body id="dmRoot"
@@ -1635,15 +1658,23 @@
                 -moz-animation-duration: 1s;
                 -moz-animation-iteration-count: infinite;
                 -moz-animation-direction: linear;
+                animation-name: loader;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                animation-direction: linear;
                 opacity: .25;
                 -webkit-transform: scale(0.7);
                 -webkit-transform-origin: 50% 180%;
                 -moz-transform: scale(0.7);
                 -moz-transform-origin: 50% 180%;
+                transform-origin: 50% 180%;
+                transform: scale(0.7);
                 position: absolute;
             }
 
             #coloumn1 {
+                transform: rotate(0deg);
+                animation-delay: -.914s;
                 -webkit-transform: rotate(0deg);
                 -webkit-animation-delay: -.914s;
                 -moz-transform: rotate(0deg);
@@ -1651,6 +1682,8 @@
             }
 
             #coloumn2 {
+                transform: rotate(30deg);
+                animation-delay: -.831s;
                 -webkit-transform: rotate(30deg);
                 -webkit-animation-delay: -.831s;
                 -moz-transform: rotate(30deg);
@@ -1658,6 +1691,8 @@
             }
 
             #coloumn3 {
+                transform: rotate(60deg);
+                animation-delay: -.747s;
                 -webkit-transform: rotate(60deg);
                 -webkit-animation-delay: -.747s;
                 -moz-transform: rotate(60deg);
@@ -1665,6 +1700,8 @@
             }
 
             #coloumn4 {
+                transform: rotate(90deg);
+                animation-delay: -.664s;
                 -webkit-transform: rotate(90deg);
                 -webkit-animation-delay: -.664s;
                 -moz-transform: rotate(90deg);
@@ -1672,6 +1709,8 @@
             }
 
             #coloumn5 {
+                transform: rotate(120deg);
+                animation-delay: -.581s;
                 -webkit-transform: rotate(120deg);
                 -webkit-animation-delay: -.581s;
                 -moz-transform: rotate(120deg);
@@ -1679,6 +1718,8 @@
             }
 
             #coloumn6 {
+                transform: rotate(150deg);
+                animation-delay: -.498s;
                 -webkit-transform: rotate(150deg);
                 -webkit-animation-delay: -.498s;
                 -moz-transform: rotate(150deg);
@@ -1686,6 +1727,8 @@
             }
 
             #coloumn7 {
+                transform: rotate(180deg);
+                animation-delay: -.415s;
                 -webkit-transform: rotate(180deg);
                 -webkit-animation-delay: -.415s;
                 -moz-transform: rotate(180deg);
@@ -1693,6 +1736,8 @@
             }
 
             #coloumn8 {
+                transform: rotate(210deg);
+                animation-delay: -.332s;
                 -webkit-transform: rotate(210deg);
                 -webkit-animation-delay: -.332s;
                 -moz-transform: rotate(210deg);
@@ -1700,6 +1745,8 @@
             }
 
             #coloumn9 {
+                transform: rotate(240deg);
+                animation-delay: -.249s;
                 -webkit-transform: rotate(240deg);
                 -webkit-animation-delay: -.249s;
                 -moz-transform: rotate(240deg);
@@ -1707,6 +1754,8 @@
             }
 
             #coloumn10 {
+                transform: rotate(270deg);
+                animation-delay: -.166s;
                 -webkit-transform: rotate(270deg);
                 -webkit-animation-delay: -.166s;
                 -moz-transform: rotate(270deg);
@@ -1714,6 +1763,8 @@
             }
 
             #coloumn11 {
+                transform: rotate(300deg);
+                animation-delay: -.083s;
                 -webkit-transform: rotate(300deg);
                 -webkit-animation-delay: -.083s;
                 -moz-transform: rotate(300deg);
@@ -1721,11 +1772,22 @@
             }
 
             #coloumn12 {
+                transform: rotate(330deg);
                 -webkit-transform: rotate(330deg);
                 -moz-transform: rotate(330deg);
             }
 
             @-webkit-keyframes loader {
+                0% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: .25;
+                }
+            }
+
+            @keyframes loader {
                 0% {
                     opacity: 1;
                 }
@@ -1802,11 +1864,9 @@
                                                         <div class="u_1038181298 dmNewParagraph" data-dmtmpl="true"
                                                             id="1038181298" data-uialign="left"
                                                             style="transition: none;">
-                                                            <div style="text-align: left;"><span style=""><span
-                                                                        style="">
+                                                            <div style="text-align: left;"><span><span>
                                                                         <font style="color: rgb(255, 255, 255);"><span
-                                                                                style="" class="font-size-22 lh-1"><b
-                                                                                    style=""><span
+                                                                                 class="font-size-22 lh-1"><b><span
                                                                                         style="font-weight: 700;">info@cosefatteaguidonia.it</span></b></span>
                                                                         </font>
                                                                     </span></span></div>
@@ -1870,7 +1930,7 @@
                                                                     <div class="u_1275707818 imageWidget align-center"
                                                                         editablewidget="true" data-element-type="image"
                                                                         data-widget-type="image" id="1275707818"><img
-                                                                            src="./COSEFATTEAGUIDONIA_files/landing_page_white_background.png"
+                                                                            src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/landing_page_white_background.png"
                                                                             id="1259379824" class=""
                                                                             data-dm-image-path="https://irp-cdn.multiscreensite.com/65a57fdf/dms3rep/multi/landing_page_white_background.png"
                                                                             onerror="handleImageLoadError(this)"></div>
@@ -1886,7 +1946,7 @@
                                                                         id="1245851886" data-uialign="center"
                                                                         data-element-type="paragraph"
                                                                         style="transition: none 0s ease 0s; display: block;">
-                                                                        <div><span style=""
+                                                                        <div><span
                                                                                 class="lh-1 font-size-36">COSE FATTE
                                                                                 2017-2019</span></div>
                                                                     </h2>
@@ -1894,12 +1954,12 @@
                                                                         data-dmtmpl="true" id="1266624353"
                                                                         data-uialign="center"
                                                                         style="transition: opacity 1s ease-in-out; display: block;">
-                                                                        <div style="text-align: center;"><b style=""
+                                                                        <div style="text-align: center;"><b
                                                                                 class="font-size-22 lh-1">
                                                                                 <font style="color: rgb(247, 34, 15);">
                                                                                     AMMINISTRAZIONE BARBET</font>
                                                                             </b></div>
-                                                                        <div style=""><br></div>
+                                                                        <div><br></div>
                                                                         <div style="text-align: center;"><i><b>Spero che
                                                                                     questo lavoro di ricerca effettuato
                                                                                     con l'aiuto di presidenti,
@@ -1975,9 +2035,9 @@
                                                                                                 style="color: rgb(247, 34, 15);"
                                                                                                 class="lh-1">Qui per
                                                                                                 comodità -&nbsp;<a
-                                                                                                    href="/COSEFATTEAGUIDONIA_files/MICHEL BARBET 2017 -2019 COSA E' STATO FATTO.pdf"
+                                                                                                    href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/MICHEL BARBET 2017 -2019 COSA E' STATO FATTO.pdf"
                                                                                                     file="true"
-                                                                                                    runtime_url="/COSEFATTEAGUIDONIA_files/MICHEL BARBET 2017 -2019 COSA E' STATO FATTO.pdf"
+                                                                                                    runtime_url="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/MICHEL BARBET 2017 -2019 COSA E' STATO FATTO.pdf"
                                                                                                     target="_blank">Cose
                                                                                                     Fatte</a>&nbsp;-
                                                                                                 potete scaricare
@@ -1987,7 +2047,7 @@
                                                                                         </b></i></div>
                                                                             </span></div>
                                                                         <div style="text-align: center;"><i><b>
-                                                                                    <font style=""
+                                                                                    <font
                                                                                         class="font-size-20 lh-1">
                                                                                         <font
                                                                                             style="color: rgb(69, 65, 65);">
@@ -2012,11 +2072,11 @@
                                                                         data-dmtmpl="true" id="1235926911"
                                                                         data-uialign="center" data-styletopreserve="{"
                                                                         background-image="" :="">
-                                                                        <div><span style="">
+                                                                        <div><span>
                                                                                 <font
                                                                                     style="color: rgb(102, 102, 102);">
                                                                                 </font>
-                                                                            </span></div><span style="">
+                                                                            </span></div><span>
                                                                             <div style="font-weight: 500;"><b>
                                                                                         <a href="https://www.facebook.com/1188595794506647/posts/2868738396492370?sfns=mo"
                                                                                         runtime_url="https://www.facebook.com/1188595794506647/posts/2868738396492370?sfns=mo"
@@ -2178,7 +2238,7 @@
                                                                                         ALLA CULTURA ELISA STRANI</a></b></div>
                                                                             <div style="font-weight: 500;"><br></div>
                                                                         </span>
-                                                                        <div><span style="">
+                                                                        <div><span>
                                                                                 <font
                                                                                     style="color: rgb(102, 102, 102);">
                                                                                 </font>
@@ -2309,27 +2369,27 @@
     </div>
     <!--  Add full CSS and Javascript before the close tag of the body if needed -->
 
-    <link rel="stylesheet" type="text/css" href="./COSEFATTEAGUIDONIA_files/d-css-foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/d-css-foundation.min.css">
 
     <!-- Google Fonts Include -->
 
-    <link rel="stylesheet" href="./COSEFATTEAGUIDONIA_files/css" as="style" onload="loadCSS(this)" type="text/css">
+    <link rel="stylesheet" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/css" as="style" onload="loadCSS(this)" type="text/css">
 
-    <link rel="stylesheet" href="./COSEFATTEAGUIDONIA_files/additional-fonts.css" as="style" onload="loadCSS(this)"
+    <link rel="stylesheet" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/additional-fonts.css" as="style" onload="loadCSS(this)"
         type="text/css">
 
 
     <link rel="stylesheet" as="style" onload="loadCSS(this)"
-        href="./COSEFATTEAGUIDONIA_files/css-font-package-v2.min.css" type="text/css">
+        href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/css-font-package-v2.min.css" type="text/css">
 
 
     <!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
     <link rel="stylesheet" as="style" onload="loadCSS(this)"
-        href="./COSEFATTEAGUIDONIA_files/d-css-runtime-desktop-one-package-new.min.css" type="text/css">
+        href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/d-css-runtime-desktop-one-package-new.min.css" type="text/css">
 
     <!-- End of RT CSS Include -->
 
-    <link rel="stylesheet" href="./COSEFATTEAGUIDONIA_files/81b6e3c612d3cd18c35caf758ece030c.css" id="widgetCSS"
+    <link rel="stylesheet" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/81b6e3c612d3cd18c35caf758ece030c.css" id="widgetCSS"
         as="style" onload="loadCSS(this)" type="text/css">
 
     <!-- This is populated in Ajax navigation -->
@@ -2337,7 +2397,7 @@
     </style>
 
     <!-- Site CSS -->
-    <link rel="stylesheet" href="./COSEFATTEAGUIDONIA_files/65a57fdf_1.min.css" id="siteGlobalCss" as="style"
+    <link rel="stylesheet" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/65a57fdf_1.min.css" id="siteGlobalCss" as="style"
         onload="loadCSS(this)" type="text/css">
 
 
@@ -2353,7 +2413,7 @@
 
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="./COSEFATTEAGUIDONIA_files/65a57fdf_home_1.min.css" id="homeCssLink" as="style"
+    <link rel="stylesheet" href="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/65a57fdf_home_1.min.css" id="homeCssLink" as="style"
         onload="loadCSS(this)" type="text/css">
 
     <style id="pagestyle" type="text/css">
@@ -2513,7 +2573,7 @@
 
     </script>
     <!-- Load jQuery -->
-    <script type="text/javascript" src="./COSEFATTEAGUIDONIA_files/jquery.min.js"></script>
+    <script type="text/javascript" src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/jquery.min.js"></script>
     <!-- End Load jQuery -->
     <script>
         window.cookiesNotificationMarkupPreview = ' <div>Utilizziamo i cookie per garantire la miglior esperienza possibile sul nostro sito Web. Per maggiori informazioni, passare alla pagina della privacy.<\/div> \n';
@@ -2559,10 +2619,10 @@
         rtCommonProps['feature.flag.single.wow'] = false;
 
     </script>
-    <script src="./COSEFATTEAGUIDONIA_files/d-js-runtime-one-package.min.js"></script>
+    <script src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/d-js-runtime-one-package.min.js"></script>
     <!-- End of HEAD RT JS Include -->
-    <script src="./COSEFATTEAGUIDONIA_files/d-js-one-runtime-layouts-package.min.js"></script>
-    <script src="./COSEFATTEAGUIDONIA_files/d-js-one-runtime-layouts-desktop.min.js"></script>
+    <script src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/d-js-one-runtime-layouts-package.min.js"></script>
+    <script src="https://flashboss.github.io/cosefatteaguidonia/COSEFATTEAGUIDONIA_files/d-js-one-runtime-layouts-desktop.min.js"></script>
     <script>jQuery.DM.updateWidthAndHeight();
         $(window).resize(function () {
 
