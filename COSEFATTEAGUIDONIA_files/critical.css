@@ -1214,15 +1214,12 @@ body {
 	font-size: 22px !important
 }
 
-:root { -
-	-button-color: #F66035; -
-	-button-hover-color: #F86F4C; -
-	-text-on-light: #F66035; -
-	-text-on-dark: #F66035; -
-	-text-on-button: #FFF; -
-	-header-color: #313131; -
-	-header-border-color: #222222; -
-	-header-text-color: #ffffff
+:root {
+	--button-hover-color: #F86F4C;
+	--text-on-light: #F66035;
+	--text-on-dark: #F66035;
+	--text-on-button: #FFF;
+	--header-text-color: #ffffff
 }
 
 #imageZone {
@@ -1362,32 +1359,6 @@ body {
 	-moz-transform: rotate(330deg)
 }
 
-@
--webkit-keyframes loader { 0% {
-	opacity: 1
-}
-
-100
-%
-{
-opacity
-:
-.25
-}
-}
-@
--moz-keyframes loader { 0% {
-	opacity: 1
-}
-
-100
-%
-{
-opacity
-:
-.25
-}
-}
 .dmDesktopBody [data-anim-desktop]:not([data-anim-desktop='none']) {
 	visibility: hidden;
 }
